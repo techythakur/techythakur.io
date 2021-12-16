@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul's Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">My Blog</a>
+        <div class="menuToggle"></div>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#post" onclick="toggleMenu();">Post</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-------  Banner  ------->
+    <section class="banner" id="home">
+        <img src="images/banner.jpg" class="cover" alt="banner">
+        <div class="contentBx">
+            <h2>The World Of Blog Writing</h2>
+            <h4>Welcome To My Blog Website</h4>
+            <a href="#about" class="btn"> About Us</a>
+        </div>
+    </section>
+
+    <!-------  About Us  ------->
+    <section class="about" id="about">
+        <div class="title">
+            <h2>About us</h2>
+        </div>
+        <div class="contentBx">
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Maecenas ultricies mi eget mauris. Suspendisse sed nisi lacus sed viverra
+                    tellus in hac. Orci porta non pulvinar neque laoreet suspendisse interdum. Sagittis orci a
+                    scelerisque purus semper. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur
+                    vitae. Amet justo donec enim diam vulputate ut pharetra sit amet. Vel eros donec ac odio tempor
+                    orci. Diam maecenas ultricies mi eget. Suscipit adipiscing bibendum est ultricies integer quis. Cum
+                    sociis natoque penatibus et. Sodales ut etiam sit amet nisl purus.
+                    Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Urna molestie at elementum
+                    eu facilisis sed. Auctor augue mauris augue neque. Lacus suspendisse faucibus interdum posuere
+                    lorem. Quam pellentesque nec nam aliquam sem et tortor consequat.<br /><br /> Nisi lacus sed viverra
+                    tellus in
+                    hac habitasse. At urna condimentum mattis pellentesque. Sollicitudin tempor id eu nisl nunc.
+                    Scelerisque fermentum dui faucibus in ornare quam viverra. Vulputate mi sit amet mauris commodo quis
+                    imperdiet massa tincidunt. Diam maecenas sed enim ut sem viverra aliquet eget sit. Pretium quam
+                    vulputate dignissim suspendisse in est. Id aliquet lectus proin nibh nisl condimentum id. Congue
+                    mauris rhoncus aenean vel. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Quam id
+                    leo in vitae turpis massa sed elementum. Cursus metus aliquam eleifend mi in.
+                </p>
+            </div>
+            <div class="content">
+                <div class="imgBx">
+                    <img src="images/img1.jpg" alt="cover" class="cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------  Latest Blog Posts  -------->
+    <section class="post" id="post">
+        <div class="title">
+            <h2>Latest Post</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Maecenas ultricies mi eget mauris.</p>
+        </div>
+        <div class="contentBx">
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post1.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">How To Write Blogs in 2021</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post2.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">Ideas are easy. Implementation is hard.</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post3.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">The Door OF Wisdom</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post4.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">It's That Time of The Year</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post5.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">Beaches and Volleyball</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post6.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">Lone Wolf in a Depressed World</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post7.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">More You Burn, More You Glow</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post8.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">Same World, Different Things</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="postBox">
+                <div class="imgBx">
+                    <img src="images/post9.jpg" class="cover">
+                </div>
+                <div class="textBx">
+                    <h2 style="font-weight: 600;">Beauty In Love</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Maecenas ultricies mi eget mauris.</h3>
+                    <a href="blog1.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="post.html" class="btn mgt60">Load More</a>
+        </div>
+    </section>
+
+    <!--------Contact Form------------>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Maecenas ultricies mi eget mauris.</p>
+        </div>
+        <form class="contactForm">
+            <div class="row">
+                <input type="text" name="" placeholder="First Name">
+                <input type="text" name="" placeholder="Last Name">
+            </div>
+            <div class="row">
+                <input type="email" name="" placeholder="Email Address">
+                <input type="number" name="" placeholder="Mobile no.">
+            </div>
+            <div class="row2">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="row2">
+                <input type="submit" value="Send" class="btn" onclick="alert('Thankyou For Filling the Form!');">
+            </div>
+        </form>
+    </section>
+
+    <!-------------Footer------------------->
+    <footer>
+        <a href="#" class="logo">My Blog</a>
+        <ul class="footerMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#post">Post</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyrightText">Copyright &copy; 2021 Aman Kumar Thakur. All Rights Reserved.</p>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+
+        function toggleMenu() {
+            menuToggle.classList.remove('active');
+            navigation.classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
